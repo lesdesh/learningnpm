@@ -1,0 +1,21 @@
+
+// main is for generic rules, goes after imports
+
+// start imports with _reset, then _vars,then _defaults
+
+
+@import "./modules/_reset.scss";
+@import "./modules/_vars.scss";
+@import"./modules/_defaults.scss";
+@import "./modules/_main.scss";
+@import "./modules/_header.scss";
+@import "./modules/_footer.scss";
+
+body{
+    background-color: $main-bg;
+    color: $main-colour;
+
+    font-size: $main-size;
+}
+
+
